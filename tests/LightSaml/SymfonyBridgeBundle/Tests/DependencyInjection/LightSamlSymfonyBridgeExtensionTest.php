@@ -286,9 +286,9 @@ class LightSamlSymfonyBridgeExtensionTest extends TestCase
     public function profile_provider()
     {
         return [
-            ['ligthsaml.profile.metadata'],
-            ['ligthsaml.profile.login_factory'],
-            ['ligthsaml.profile.acs'],
+            ['lightsaml.profile.metadata'],
+            ['lightsaml.profile.login_factory'],
+            ['lightsaml.profile.acs'],
         ];
     }
     /**
@@ -301,8 +301,8 @@ class LightSamlSymfonyBridgeExtensionTest extends TestCase
         $config = $this->getDefaultConfig();
         $extension->load($config, $containerBuilder);
 
-        $this->assertTrue($containerBuilder->hasDefinition('ligthsaml.profile.metadata'));
-        $defn = $containerBuilder->getDefinition('ligthsaml.profile.metadata');
+        $this->assertTrue($containerBuilder->hasDefinition('lightsaml.profile.metadata'));
+        $defn = $containerBuilder->getDefinition('lightsaml.profile.metadata');
         $this->assertTrue($defn->isPublic());
     }
 
