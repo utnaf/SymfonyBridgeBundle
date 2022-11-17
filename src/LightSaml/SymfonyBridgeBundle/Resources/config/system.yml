@@ -2,6 +2,10 @@ parameters:
     # lightsaml.system.xxx: 123
 
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     lightsaml.system.time_provider:
         class: LightSaml\Provider\TimeProvider\SystemTimeProvider
 

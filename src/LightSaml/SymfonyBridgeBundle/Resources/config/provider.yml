@@ -1,4 +1,8 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     lightsaml.provider.attribute_value:
         class: LightSaml\Provider\Attribute\FixedAttributeValueProvider
 

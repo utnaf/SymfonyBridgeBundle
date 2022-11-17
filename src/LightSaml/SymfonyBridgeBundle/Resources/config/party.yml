@@ -1,4 +1,8 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     lightsaml.party.sp_entity_descriptor_store:
         class: LightSaml\Store\EntityDescriptor\CompositeEntityDescriptorStore
 

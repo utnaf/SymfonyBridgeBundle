@@ -4,6 +4,10 @@ parameters:
     lightsaml.store.sso_state_session_key: samlsso
 
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     lightsaml.store.request:
         class: LightSaml\Store\Request\RequestStateSessionStore
         arguments:
