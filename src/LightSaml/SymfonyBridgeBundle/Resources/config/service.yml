@@ -1,4 +1,8 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
     lightsaml.service.name_id_validator:
         class: LightSaml\Validator\Model\NameId\NameIdValidator
 
