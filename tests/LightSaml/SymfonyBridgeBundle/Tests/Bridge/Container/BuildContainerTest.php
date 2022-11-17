@@ -16,6 +16,7 @@ class BuildContainerTest extends TestCase
 {
     public function test_constructs_with_all_containers()
     {
+        $this->expectNotToPerformAssertions();
         new BuildContainer(
             $this->getMockBuilder(SystemContainerInterface::class)->getMock(),
             $this->getMockBuilder(PartyContainerInterface::class)->getMock(),

@@ -12,6 +12,7 @@ class AddMethodCallCompilerPassTest extends TestCase
 {
     public function test_constructs_with_three_strings()
     {
+        $this->expectNotToPerformAssertions();
         new AddMethodCallCompilerPass('', '', '');
     }
 

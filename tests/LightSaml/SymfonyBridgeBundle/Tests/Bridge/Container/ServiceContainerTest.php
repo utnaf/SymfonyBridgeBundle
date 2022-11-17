@@ -18,6 +18,7 @@ class ServiceContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new ServiceContainer(
             $this->getMockBuilder(AssertionValidatorInterface::class)->getMock(),
             $this->getMockBuilder(AssertionTimeValidatorInterface::class)->getMock(),

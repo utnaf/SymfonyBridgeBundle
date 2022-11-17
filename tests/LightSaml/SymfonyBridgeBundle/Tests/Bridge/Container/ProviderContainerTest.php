@@ -12,6 +12,7 @@ class ProviderContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new ProviderContainer(
             $this->getMockBuilder(AttributeValueProviderInterface::class)->getMock(),
             $this->getMockBuilder(SessionInfoProviderInterface::class)->getMock(),

@@ -11,6 +11,7 @@ class LightSamlSymfonyBridgeExtensionTest extends TestCase
 {
     public function test_loads_with_configuration()
     {
+        $this->expectNotToPerformAssertions();
         $containerBuilder = new ContainerBuilder(new ParameterBag());
         $extension = new LightSamlSymfonyBridgeExtension();
         $config = $this->getDefaultConfig();

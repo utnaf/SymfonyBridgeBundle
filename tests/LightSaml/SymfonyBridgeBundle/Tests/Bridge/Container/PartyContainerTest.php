@@ -11,6 +11,7 @@ class PartyContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new PartyContainer(
             $this->getMockBuilder(EntityDescriptorStoreInterface::class)->getMock(),
             $this->getMockBuilder(EntityDescriptorStoreInterface::class)->getMock(),

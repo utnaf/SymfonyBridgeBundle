@@ -12,6 +12,7 @@ class StoreContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new StoreContainer(
             $this->getMockBuilder(RequestStateStoreInterface::class)->getMock(),
             $this->getMockBuilder(IdStoreInterface::class)->getMock(),

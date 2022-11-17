@@ -2,6 +2,8 @@
 
 namespace LightSaml\SymfonyBridgeBundle\Tests\Functional;
 
+use LightSaml\SymfonyBridgeBundle\LightSamlSymfonyBridgeBundle;
+use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 use Symfony\Component\HttpKernel\Kernel;
@@ -14,11 +16,11 @@ class TestKernel extends Kernel
      *
      * @return iterable|BundleInterface[] An iterable of bundle instances
      */
-    public function registerBundles()
+    public function registerBundles(): iterable
     {
         $bundles = [
-            new \Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-            new \LightSaml\SymfonyBridgeBundle\LightSamlSymfonyBridgeBundle(),
+            new FrameworkBundle(),
+            new LightSamlSymfonyBridgeBundle(),
         ];
 
         return $bundles;

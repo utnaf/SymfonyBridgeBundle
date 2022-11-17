@@ -10,6 +10,7 @@ class CredentialContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new CredentialContainer(
             $this->getMockBuilder(CredentialStoreInterface::class)->getMock()
         );

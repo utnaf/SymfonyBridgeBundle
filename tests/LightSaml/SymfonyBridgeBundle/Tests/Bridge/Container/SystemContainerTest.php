@@ -14,9 +14,9 @@ class SystemContainerTest extends TestCase
 {
     public function test_constructs_with_all_arguments()
     {
+        $this->expectNotToPerformAssertions();
         new SystemContainer(
             $this->getMockBuilder(RequestStack::class)->getMock(),
-            $this->getMockBuilder(SessionInterface::class)->getMock(),
             $this->getMockBuilder(TimeProviderInterface::class)->getMock(),
             $this->getMockBuilder(EventDispatcherInterface::class)->getMock(),
             $this->getMockBuilder(LoggerInterface::class)->getMock()
