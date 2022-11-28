@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Bridge\Container;
+namespace LightSaml\SymfonyBridgeBundle\Bridge\Container;
 
 use LightSaml\Binding\BindingFactoryInterface;
 use LightSaml\Resolver\Credential\CredentialResolverInterface;

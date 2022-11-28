@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Factory;
+namespace LightSaml\SymfonyBridgeBundle\Factory;
 
 use LightSaml\Credential\X509Certificate;
 use LightSaml\Credential\X509CredentialInterface;

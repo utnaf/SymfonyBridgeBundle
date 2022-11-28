@@ -13,9 +13,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "LightSaml\\SymfonyBridgeBundle\\Tests\\": "tests/",
-            "LightSaml\\SymfonyBridgeBundle\\": "src/"
+        "psr-4": {
+            "LightSaml\\SymfonyBridgeBundle\\": ["src/", "tests/"]
         }
     },
     "require": {

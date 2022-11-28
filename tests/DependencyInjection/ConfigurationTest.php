@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\DependencyInjection;
+namespace LightSaml\SymfonyBridgeBundle\DependencyInjection;
 
 use LightSaml\SymfonyBridgeBundle\DependencyInjection\Configuration;
 use PHPUnit\Framework\TestCase;

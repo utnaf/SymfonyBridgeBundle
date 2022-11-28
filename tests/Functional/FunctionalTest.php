@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Functional;
+namespace LightSaml\SymfonyBridgeBundle\Functional;
 
 use LightSaml\Binding\BindingFactoryInterface;
 use LightSaml\Build\Container\BuildContainerInterface;

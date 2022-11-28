@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Functional;
+namespace LightSaml\SymfonyBridgeBundle\Functional;
 
 use LightSaml\SymfonyBridgeBundle\LightSamlSymfonyBridgeBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;

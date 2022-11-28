@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests;
+namespace LightSaml\SymfonyBridgeBundle;
 
 use LightSaml\SymfonyBridgeBundle\DependencyInjection\Compiler\AddMethodCallCompilerPass;
 use LightSaml\SymfonyBridgeBundle\LightSamlSymfonyBridgeBundle;

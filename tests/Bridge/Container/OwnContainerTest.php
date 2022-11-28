@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Bridge\Container;
+namespace LightSaml\SymfonyBridgeBundle\Bridge\Container;
 
 use LightSaml\Provider\EntityDescriptor\EntityDescriptorProviderInterface;
 use LightSaml\Store\Credential\CredentialStoreInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LightSaml\SymfonyBridgeBundle\Tests\Bridge\Container;
+namespace LightSaml\SymfonyBridgeBundle\Bridge\Container;
 
 use LightSaml\Provider\Attribute\AttributeValueProviderInterface;
 use LightSaml\Provider\NameID\NameIdProviderInterface;

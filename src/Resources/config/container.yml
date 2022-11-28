@@ -1,8 +1,4 @@
 services:
-    _defaults:
-        autowire: true
-        autoconfigure: true
-
     lightsaml.container.build:
         class: LightSaml\SymfonyBridgeBundle\Bridge\Container\BuildContainer
         public: true
